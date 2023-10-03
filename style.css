@@ -1,0 +1,15 @@
+* {
+    background-color: #252525;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    list-style: none;
+}
+
+h1, h2 {
+    background-color: #181818;
+}
+
+ol li {
+    list-style: number;
+}
