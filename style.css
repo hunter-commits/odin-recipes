@@ -3,13 +3,51 @@
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    list-style: none;
+    list-style-position: inside;
+    box-sizing: border-box;
 }
 
-h1, h2 {
+h1, h2, a {
     background-color: #181818;
 }
 
-ol li {
-    list-style: number;
+a {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav h1 {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 0px solid;
+    margin-right: -5px;
+    margin-left: -5px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 50px;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 13px 30px;
+    border: 0px solid;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.nav a:first-child {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.content a {
+    width: 150px;
+    height: 60px;
+    line-height: 55px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h2 {
+    padding: 10px;
+    border-radius: 10px;
 }
